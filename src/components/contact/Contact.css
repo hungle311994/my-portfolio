@@ -1,0 +1,124 @@
+.contact {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 0;
+  color: var(--w);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact .title {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contact .title > span {
+  color: var(--w-l);
+  font-size: 18px;
+}
+.contact .detail {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  padding: 0 30px;
+}
+.contact .detail .infor {
+  width: 350px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.contact .detail .infor .item {
+  display: flex;
+}
+.contact .detail .infor .item span:first-child {
+  margin-right: 10px;
+  font-size: 20px;
+  color: var(--s);
+}
+.contact .detail .infor img {
+  animation: animation_ 3s infinite linear;
+}
+@keyframes animation_ {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(0) rotate(-5deg);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+.contact .detail form {
+  width: 400px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contact .detail form .form-item {
+  width: 100%;
+  position: relative;
+}
+.contact .detail form input,
+.contact .detail form textarea {
+  border: 1px solid var(--s);
+  border-radius: 10px;
+  background-color: var(--p);
+  color: var(--w);
+  padding: 20px;
+  transition: var(--t);
+}
+.contact .detail form input {
+  width: 100%;
+  height: 60px;
+}
+.contact .detail form textarea {
+  width: 100%;
+  height: 180px;
+}
+.contact .detail form button {
+  width: 50%;
+  height: 50px;
+  border-radius: 100rem;
+  border: none;
+  outline: none;
+  color: var(--w);
+  font-size: 14px;
+  letter-spacing: 1px;
+  background-image: var(--g);
+  overflow: hidden;
+  position: relative;
+}
+.contact .detail form button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 1;
+  transition: var(--t);
+}
+.contact .detail form button:hover:before {
+  width: 100%;
+}
+.contact .detail form label {
+  color: var(--s);
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  background-color: var(--p);
+  padding: 0 7px;
+  transform: translateY(-50%);
+}
+.contact .detail form input:focus,
+.contact .detail form textarea:focus {
+  box-shadow: 0 0 8px var(--s);
+  background-color: var(--p);
+}

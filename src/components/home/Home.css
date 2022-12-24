@@ -1,0 +1,108 @@
+.home {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 20px 0;
+  color: var(--w);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+}
+.disc {
+  max-width: 100%;
+  margin: auto 0;
+}
+.disc span:first-child {
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 3px;
+}
+.disc h1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+.disc p {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--w-l);
+  letter-spacing: 1.5px;
+  margin: 20px 0 40px;
+}
+.disc h1 .cursor {
+  height: 75px;
+  width: 3px;
+  margin-left: 5px;
+  background-color: var(--w-l);
+  display: inline-block;
+  transform: translateY(25%);
+  animation: cursor 1.5s infinite ease;
+}
+@keyframes cursor {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.disc .get-in-touch {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 100rem;
+  background-image: var(--g);
+  overflow: hidden;
+  position: relative;
+}
+.disc .get-in-touch:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  z-index: 1;
+  transition: var(--t);
+}
+.disc .get-in-touch:hover:before {
+  width: 100%;
+}
+.disc .get-in-touch span {
+  display: block;
+  height: 100%;
+  font-size: 14px;
+  margin-top: 15px;
+  letter-spacing: 1px;
+  color: var(--w-l);
+}
+.avt {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.avt img {
+  width: 80%;
+  border: 1px solid var(--s);
+  border-radius: 25px;
+  animation: animation 3s linear infinite;
+}
+@keyframes animation {
+  0% {
+    transform: translateY(20px);
+  }
+  50% {
+    transform: translateY(0) rotate(-5deg);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}

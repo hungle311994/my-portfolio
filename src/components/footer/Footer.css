@@ -1,0 +1,46 @@
+.footer {
+  /* max-width: 1200px; */
+  margin: 100px auto 0;
+  padding: 50px 0;
+  color: var(--w);
+  border-top: 1px solid var(--b);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.footer .title {
+  font-family: "Sacramento", cursive;
+  font-size: 35px;
+}
+.footer .links {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .links a {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  color: var(--w-l);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: var(--t);
+}
+.footer .links a:first-child:hover {
+  color: #1871e6;
+  background-color: var(--w);
+  border-radius: 3px;
+}
+.footer .links a:nth-child(2):hover {
+  color: #1871e6;
+  background-color: var(--w);
+  border-radius: 100rem;
+}
+.footer .links a:last-child:hover {
+  color: var(--b);
+  background-color: var(--w);
+  border-radius: 100rem;
+}
