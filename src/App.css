@@ -14,13 +14,14 @@
   --s: #bd6afd;
   --s1: #7f00ff;
   --w: #f0f0f0;
-  --b: #333;
   --w-l: #c1c1c1;
+  --b: #333;
   --gr: #757575;
 
   --g: linear-gradient(45deg, #7f00ff, #d078e7);
 
   --t: all 0.25s linear;
+  --t1: all 0.5s ease;
 }
 a {
   text-decoration: none;

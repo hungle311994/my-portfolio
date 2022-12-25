@@ -122,3 +122,14 @@
   box-shadow: 0 0 8px var(--s);
   background-color: var(--p);
 }
+
+/* ---------------- */
+@media screen and (max-width: 830px) {
+  .contact .detail {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact .detail form {
+    justify-content: center;
+  }
+}

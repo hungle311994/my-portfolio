@@ -65,3 +65,31 @@
 .skills .items .item:nth-child(4) span:first-child {
   color: #5cd0ef;
 }
+
+/* ----------------- */
+@media screen and (max-width: 960px) {
+  .skills .items {
+    max-width: 564px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .skills .items .item {
+    width: 272px;
+    height: 197px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .skills .items {
+    width: 272px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .skills .items .item {
+    width: 100%;
+    height: 197px;
+  }
+}

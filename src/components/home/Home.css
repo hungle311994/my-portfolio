@@ -106,3 +106,28 @@
     transform: translateY(20px);
   }
 }
+
+/*  */
+@media screen and (max-width: 960px) {
+  .home {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+    position: relative;
+  }
+  .disc h1 {
+    font-size: 40px;
+  }
+  .disc h1 .cursor {
+    height: 60px;
+  }
+  .avt {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .avt img {
+    width: 60%;
+  }
+}

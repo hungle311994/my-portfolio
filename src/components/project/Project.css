@@ -1,7 +1,7 @@
 .projects {
   max-width: 1200px;
   margin: 0 auto;
-  padding-top: 100px;
+  padding: 100px 20px 0;
   color: var(--w);
   display: flex;
   flex-direction: column;
@@ -141,4 +141,24 @@
 }
 .projects .items .item .content .btn a:last-child:hover .icon {
   transform: translateX(50%);
+}
+
+/* ---------------- */
+@media screen and (max-width: 960px) {
+  .projects .items .item {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .projects .items .item .img-wrap img {
+    min-width: 310px;
+  }
+}
+@media screen and (max-width: 815px) {
+  .projects .items .item {
+    display: block;
+  }
+  .projects .items .item .img-wrap {
+    margin-bottom: 20px;
+  }
 }
