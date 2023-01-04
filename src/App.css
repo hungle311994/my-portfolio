@@ -10,15 +10,15 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --p: #21222c;
+  --p: #0f172a;
   --s: #bd6afd;
   --s1: #7f00ff;
   --w: #f0f0f0;
   --w-l: #c1c1c1;
-  --b: #333;
+  --b: #1f2937;
   --gr: #757575;
 
-  --g: linear-gradient(45deg, #7f00ff, #d078e7);
+  --g: linear-gradient(45deg, var(--s1), var(--s));
 
   --t: all 0.25s linear;
   --t1: all 0.5s ease;

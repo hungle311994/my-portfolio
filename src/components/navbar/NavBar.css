@@ -83,7 +83,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: var(--s);
+  background-image: var(--g);
   border-radius: 100rem;
   z-index: -1;
   transition: var(--t);

@@ -75,7 +75,8 @@
   user-select: none;
   border: 1px solid var(--s1);
   border-radius: 7px;
-  color: var(--w-l);
+  color: var(--w);
+  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,7 +113,8 @@
   user-select: none;
   border: 1px solid var(--s);
   border-radius: 7px;
-  color: var(--w-l);
+  color: var(--w);
+  font-size: 14px;
   display: flex;
   justify-content: center;
   align-items: center;

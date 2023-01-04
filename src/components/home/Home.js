@@ -23,7 +23,7 @@ const Home = () => {
       </div>
 
       <div className="avt">
-        <img src={require("../../assets/avt-g1.png")} alt="" />
+        <img src={require("../../assets/avt-g3.png")} alt="" />
       </div>
     </div>
   );

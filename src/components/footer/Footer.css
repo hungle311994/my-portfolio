@@ -27,7 +27,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: var(--t);
 }
 .footer .links a:first-child:hover {
   color: #1871e6;
