@@ -67,7 +67,7 @@ const Project = () => {
 
             <div className="btn">
               <a
-                href="https://github.com/hungle311994/sign-up"
+                href="https://signup-tab.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
