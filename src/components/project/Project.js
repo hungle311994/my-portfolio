@@ -17,26 +17,29 @@ const Project = () => {
 
           <div className="content">
             <span>TGDD Page</span>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat
-              ipsum quidem non ullam in? Perspiciatis doloremque harum a nulla
-              dolores mollitia deleniti nostrum minus fugit. Placeat,
-              consectetur ab. Fuga, temporibus.
-            </p>
+            <ul>
+              <li>Render products at homepage</li>
+              <li>Add, Update, Delete products at admin page</li>
+              <li>
+                Add products to order bag and calculate the quantity & price
+              </li>
+              <li>Validate form sign up & login</li>
+              <li>Technology used: HTML, CSS, JavaScript, ReactJS, Redux</li>
+            </ul>
 
             <div className="btn">
               <a
-                href="https://github.com/hungle311994/clone-TGDD-page"
+                href="https://github.com/hungle311994/clone-tgdd-pages"
                 target="_blank"
                 rel="noreferrer"
               >
-                <span>View Page</span>
+                <span>Preview</span>
                 <span className="icon">
                   <ion-icon name="arrow-forward-outline"></ion-icon>
                 </span>
               </a>
               <a
-                href="https://github.com/hungle311994/clone-TGDD-page"
+                href="https://github.com/hungle311994/clone-tgdd-pages"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -56,12 +59,11 @@ const Project = () => {
 
           <div className="content">
             <span>Sign Up Page</span>
-            <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab
-              ratione maiores exercitationem reprehenderit laborum voluptatem
-              eos atque tempore quae, accusantium corrupti labore commodi natus
-              earum explicabo architecto, praesentium nihil autem!
-            </p>
+            <ul>
+              <li>Validate form input</li>
+              <li>Show & Hide password</li>
+              <li>Technology used: HTML, CSS, JavaScript, Bootstrap</li>
+            </ul>
 
             <div className="btn">
               <a
@@ -69,7 +71,7 @@ const Project = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span>View Page</span>
+                <span>Preview</span>
                 <span className="icon">
                   <ion-icon name="arrow-forward-outline"></ion-icon>
                 </span>

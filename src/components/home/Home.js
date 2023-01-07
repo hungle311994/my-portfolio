@@ -12,10 +12,8 @@ const Home = () => {
           <span className="cursor"></span>
         </h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est atque,
-          culpa, adipisci architecto ut dolorum vel porro ratione unde placeat
-          voluptatibus totam quasi provident dolorem laboriosam sint, ea
-          officia? Eius.
+          I'm a Front-end Developer. I'm trying to be better by learning day by
+          day. Welcome to my personal website!
         </p>
         <Link className="get-in-touch" to="/contact" smooth={true}>
           <span>GET IN TOUCH</span>

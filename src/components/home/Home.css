@@ -91,7 +91,7 @@
 }
 .avt img {
   width: 80%;
-  border: 1px solid var(--s);
+  /* border: 1px solid var(--s); */
   border-radius: 25px;
   animation: animation 3s linear infinite;
 }
