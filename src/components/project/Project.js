@@ -29,7 +29,7 @@ const Project = () => {
 
             <div className="btn">
               <a
-                href="https://github.com/hungle311994/clone-tgdd-pages"
+                href="https://tgdd-page.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
