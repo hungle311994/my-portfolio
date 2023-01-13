@@ -76,7 +76,7 @@ const Navbar = () => {
 
           <div className="nav-links">
             <a
-              href="https://www.linkedin.com/in/h%C6%B0ng-l%C3%AA-quang-074199234/"
+              href="https://www.linkedin.com/in/hungle311994/"
               target="_blank"
               rel="noreferrer"
             >

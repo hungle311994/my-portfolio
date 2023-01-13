@@ -8,7 +8,7 @@ const Footer = () => {
 
       <div className="links">
         <a
-          href="https://www.linkedin.com/in/h%C6%B0ng-l%C3%AA-quang-074199234/"
+          href="https://www.linkedin.com/in/hungle311994/"
           target="_blank"
           rel="noreferrer"
         >
