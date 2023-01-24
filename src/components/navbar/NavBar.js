@@ -15,6 +15,9 @@ const Navbar = () => {
 
   useEffect(() => {
     document.addEventListener("mousedown", () => setIsDropdowns(true));
+    return document.removeEventListener("mousedown", () =>
+      setIsDropdowns(true)
+    );
   }, []);
 
   return (
