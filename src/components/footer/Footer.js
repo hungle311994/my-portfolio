@@ -4,7 +4,7 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <span className="title">Follow me on. Thank you.</span>
+      <span className="title">Follow me on.</span>
 
       <div className="links">
         <a
@@ -31,6 +31,8 @@ const Footer = () => {
           <ion-icon name="logo-github"></ion-icon>
         </a>
       </div>
+
+      <span className="title">Thank you.</span>
     </div>
   );
 };
