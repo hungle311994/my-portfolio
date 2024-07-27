@@ -6,11 +6,62 @@ import {
   SiGithub,
   SiHtml5,
   SiJavascript,
-  SiRedux,
   SiTypescript,
+  SiFlutter,
+  SiReact,
 } from "react-icons/si";
+import { TbBrandReactNative } from "react-icons/tb";
+import { FaVuejs } from "react-icons/fa";
 
 const Skill = () => {
+  const skills = [
+    {
+      icon: <SiHtml5 color="#e76027" />,
+      name: "HTML",
+    },
+    {
+      icon: <SiCss3 color="#2760e6" />,
+      name: "CSS",
+    },
+    {
+      icon: <SiJavascript color="#edd54a" />,
+      name: "JavaScript",
+    },
+    {
+      icon: <SiTypescript color="#5cd0ef" />,
+      name: "TypeScript",
+    },
+    {
+      icon: <SiFlutter color="#5cd0ef" />,
+      name: "Flutter",
+    },
+    {
+      icon: (
+        <TbBrandReactNative
+          className="logo-react"
+          name="logo-react"
+        ></TbBrandReactNative>
+      ),
+      name: "React-Native",
+    },
+    {
+      icon: <SiReact color="#5cd0ef" />,
+      name: "ReactJS",
+    },
+    {
+      icon: <FaVuejs color="#3FB17F" />,
+      name: "VueJS",
+    },
+    {
+      icon: <SiAdobephotoshop color="#0074c2" />,
+      name: "Photoshop",
+    },
+    {
+      icon: <SiGithub />,
+      name: "Github",
+    },
+  ];
+
   return (
     <div className="skills" name="/skills">
       <div className="title">
@@ -19,61 +70,13 @@ const Skill = () => {
       </div>
 
       <div className="items">
-        <div className="item">
-          <span>
-            <SiHtml5 />
-          </span>
-          <span>HTML</span>
-        </div>
-
-        <div className="item">
-          <span>
-            <SiCss3 />
-          </span>
-          <span>CSS</span>
-        </div>
-
-        <div className="item">
-          <span>
-            <SiJavascript />
-          </span>
-          <span>JavaScript</span>
-        </div>
-
-        <div className="item">
-          <span>
-            <ion-icon name="logo-react"></ion-icon>
-          </span>
-          <span>ReactJs</span>
-        </div>
-
-        <div className="item">
-          <span>
-            <SiRedux />
-          </span>
-          <span>Redux</span>
-        </div>
-
-        <div className="item">
-          <span>
-            <SiTypescript />
-          </span>
-          <span>TypeScript</span>
-        </div>
-
-        <div className="item">
-          <span>
-            <SiAdobephotoshop />
-          </span>
-          <span>Photoshop</span>
-        </div>
-
-        <div className="item">
-          <span>
-            <SiGithub />
-          </span>
-          <span>Github</span>
-        </div>
+        {skills &&
+          skills.map((skill) => (
+            <div className="item">
+              <span>{skill.icon}</span>
+              <span>{skill.name}</span>
+            </div>
+          ))}
       </div>
     </div>
   );

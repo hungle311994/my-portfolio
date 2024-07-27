@@ -1,2 +1,2 @@
-- my-portfolio
-- https://hungle-portfolio.netlify.app/
+- My Portfolio: https://hungle-portfolio.netlify.app/
+-> This link introduces you to some basic information about me.

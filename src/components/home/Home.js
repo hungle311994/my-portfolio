@@ -12,7 +12,7 @@ const Home = () => {
           <span className="cursor"></span>
         </h1>
         <p>
-          I'm a Front-end Developer. I'm trying to be better by learning day by
+          I'm a Mobile Developer. I'm trying to be better by learning day by
           day. Welcome to my personal website!
         </p>
         <Link className="get-in-touch" to="/contact" smooth={true}>

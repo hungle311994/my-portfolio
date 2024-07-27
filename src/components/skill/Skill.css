@@ -53,26 +53,8 @@
   font-size: 95px;
   transition: var(--t);
 }
-.skills .items .item:first-child span:first-child {
-  color: #e76027;
-}
-.skills .items .item:nth-child(2) span:first-child {
-  color: #2760e6;
-}
-.skills .items .item:nth-child(3) span:first-child {
-  color: #edd54a;
-}
-.skills .items .item:nth-child(4) span:first-child {
-  color: #5cd0ef;
-}
-.skills .items .item:nth-child(5) span:first-child {
-  color: #7046b3;
-}
-.skills .items .item:nth-child(6) span:first-child {
-  color: #0074c2;
-}
-.skills .items .item:nth-child(7) span:first-child {
-  color: #0074c2;
+.logo-react {
+  color: aqua;
 }
 
 /* ----------------- */
