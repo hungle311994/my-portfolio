@@ -34,18 +34,17 @@
   height: 75px;
   width: 3px;
   margin-left: 5px;
-  background-color: var(--w-l);
+  background-color: var(--w);
   display: inline-block;
   transform: translateY(25%);
-  animation: cursor 1.5s infinite ease;
+  animation: typing-cursor 1s infinite ease;
 }
-@keyframes cursor {
-  0% {
-    opacity: 0;
-  }
+@keyframes typing-cursor {
+  0%,
   50% {
     opacity: 1;
   }
+  51%,
   100% {
     opacity: 0;
   }

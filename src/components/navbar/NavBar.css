@@ -194,6 +194,13 @@
   nav > .nav-direct .nav-items a {
     color: var(--b);
   }
+  nav > .nav-direct .nav-items .active {
+    color: var(--s);
+    font-weight: 600;
+  }
+  nav > .nav-direct .nav-items a:hover {
+    color: var(--s);
+  }
   nav > .nav-direct .nav-links a {
     border: 1px solid var(--b);
     color: var(--b);

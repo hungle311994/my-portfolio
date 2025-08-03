@@ -1,17 +1,19 @@
-import React from "react";
-import "./Skill.css";
+import { FaVuejs } from "react-icons/fa";
 import {
   SiAdobephotoshop,
   SiCss3,
+  SiDart,
+  SiFigma,
+  SiFlutter,
   SiGithub,
+  SiGitlab,
   SiHtml5,
   SiJavascript,
-  SiTypescript,
-  SiFlutter,
   SiReact,
+  SiTypescript,
 } from "react-icons/si";
 import { TbBrandReactNative } from "react-icons/tb";
-import { FaVuejs } from "react-icons/fa";
+import "./Skill.css";
 
 const Skill = () => {
   const skills = [
@@ -32,6 +34,10 @@ const Skill = () => {
       name: "TypeScript",
     },
     {
+      icon: <SiDart color="#0175C2" />,
+      name: "Dart",
+    },
+    {
       icon: <SiFlutter color="#5cd0ef" />,
       name: "Flutter",
     },
@@ -42,7 +48,7 @@ const Skill = () => {
           name="logo-react"
         ></TbBrandReactNative>
       ),
-      name: "React-Native",
+      name: "React Native",
     },
     {
       icon: <SiReact color="#5cd0ef" />,
@@ -57,8 +63,16 @@ const Skill = () => {
       name: "Photoshop",
     },
     {
+      icon: <SiFigma color="#F24E1E" />,
+      name: "Figma",
+    },
+    {
       icon: <SiGithub />,
       name: "Github",
+    },
+    {
+      icon: <SiGitlab color="#FC6D26" />,
+      name: "GitLab",
     },
   ];
 
@@ -71,10 +85,10 @@ const Skill = () => {
 
       <div className="items">
         {skills &&
-          skills.map((skill) => (
-            <div className="item">
-              <span>{skill.icon}</span>
-              <span>{skill.name}</span>
+          skills.map((skill, index) => (
+            <div className="item" key={index}>
+              <span className="skill-icon">{skill.icon}</span>
+              <span className="skill-name">{skill.name}</span>
             </div>
           ))}
       </div>

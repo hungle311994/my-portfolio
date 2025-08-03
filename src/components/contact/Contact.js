@@ -1,4 +1,3 @@
-import React from "react";
 import "./Contact.css";
 
 const Contact = () => {
@@ -15,7 +14,7 @@ const Contact = () => {
             <span>
               <ion-icon name="call-outline"></ion-icon>
             </span>
-            <span>0765-703-804</span>
+            <span>(+84) 337 909 301</span>
           </div>
 
           <div className="item email">
@@ -29,7 +28,7 @@ const Contact = () => {
             <span>
               <ion-icon name="location-outline"></ion-icon>
             </span>
-            <span>Tan Binh district, Ho Chi Minh city</span>
+            <span>Bay Hien Ward, Ho Chi Minh City</span>
           </div>
 
           <img src={require("../../assets/coder-1.png")} alt="" />
